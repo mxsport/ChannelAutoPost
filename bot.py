@@ -42,8 +42,8 @@ async def _(event):
     await event.reply(
         f"Hi `{event.sender.first_name}`!\n\nI am a channel auto-post bot!! Read /help to know more!\n\nI can be used in only two channels (one user) at a time. Kindly deploy your own bot.\n\n[More bots](https://t.me/OTT_Walla_Bot_Support)..",
         buttons=[
-            Button.url("Repo", url="https://github.com/xditya/ChannelAutoForwarder"),
-            Button.url("Dev", url="https://xditya.me"),
+            Button.url("Repo", url="https://github.com/mxsport/ChannelAutoForwarder"),
+            Button.url("Dev", url="https://t.me/OTT_Walla_Bot_Support"),
         ],
         link_preview=False,
     )
@@ -90,5 +90,5 @@ async def _(event):
 
 
 log.info("Bot has started.")
-log.info("Do visit https://xditya.me !")
+log.info("Do visit https://t.me/OTT_Walla_Bot_Support !")
 datgbot.run_until_disconnected()
