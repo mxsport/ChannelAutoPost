@@ -1,5 +1,5 @@
-#    This file is part of the ChannelAutoForwarder distribution (https://github.com/xditya/ChannelAutoForwarder).
-#    Copyright (c) 2021-2022 Aditya
+#    This file is part of the ChannelAutoForwarder distribution (https://github.com/mxsport/ChannelAutoForwarder).
+#    Copyright (c) 2021-2022 Akash
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -10,7 +10,7 @@
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
 #    General Public License for more details.
 #
-#    License can be found in < https://github.com/xditya/ChannelAutoForwarder/blob/main/License> .
+#    License can be found in < https://github.com/mxsport/ChannelAutoForwarder/blob/main/License> .
 
 import logging
 from telethon import TelegramClient, events, Button
@@ -40,7 +40,7 @@ except Exception as exc:
 @datgbot.on(events.NewMessage(pattern="/start"))
 async def _(event):
     await event.reply(
-        f"Hi `{event.sender.first_name}`!\n\nI am a channel auto-post bot!! Read /help to know more!\n\nI can be used in only two channels (one user) at a time. Kindly deploy your own bot.\n\n[More bots](https://t.me/its_xditya)..",
+        f"Hi `{event.sender.first_name}`!\n\nI am a channel auto-post bot!! Read /help to know more!\n\nI can be used in only two channels (one user) at a time. Kindly deploy your own bot.\n\n[More bots](https://t.me/OTT_Walla_Bot_Support)..",
         buttons=[
             Button.url("Repo", url="https://github.com/xditya/ChannelAutoForwarder"),
             Button.url("Dev", url="https://xditya.me"),
@@ -52,7 +52,7 @@ async def _(event):
 @datgbot.on(events.NewMessage(pattern="/help"))
 async def helpp(event):
     await event.reply(
-        "**Help**\n\nThis bot will send all new posts in one channel to the other channel. (without forwarded tag)!\nIt can be used only in two channels at a time, so kindly deploy your own bot from [here](https://github.com/xditya/ChannelAutoForwarder).\n\nAdd me to both the channels and make me an admin in both, and all new messages would be autoposted on the linked channel!!\n\nLiked the bot? Drop a ♥ to @xditya_Bot :)"
+        "**Help**\n\nThis bot will send all new posts in one channel to the other channel. (without forwarded tag)!\nIt can be used only in two channels at a time, so kindly deploy your own bot from [here](https://github.com/xditya/ChannelAutoForwarder).\n\nAdd me to both the channels and make me an admin in both, and all new messages would be autoposted on the linked channel!! :)"
     )
 
 
