@@ -1,16 +1,16 @@
 {
     "name": "Channel Auto Post",
-    "description": "Channel Auto Post Bot for telegram, by @BotzHub.",
+    "description": "Channel Auto Post Bot for telegram, by @OTT_Walla_Original.",
     "logo": "",
     "keywords": [
         "telegram",
         "telethon",
         "telegram-bot",
-        "botzhub"
+        "ottwalla"
     ],
-    "repository": "https://github.com/xditya/ChannelAutoPost",
-    "website": "xditya.me",
-    "success_url": "https://t.me/BotzHub",
+    "repository": "https://github.com/mxsport/ChannelAutoPost",
+    "website": "https://t.me/OTT_Walla_Bot_Support",
+    "success_url": "https://t.me/OTT_Walla_Bot_Support",
     "env": {
         "BOT_TOKEN": {
             "description": "Bot token, get it from @BotFather.",
